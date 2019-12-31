@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347073602762",
+    "firebase_url": "https://background-service-debf5.firebaseio.com",
+    "project_id": "background-service-debf5",
+    "storage_bucket": "background-service-debf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347073602762:android:a01490ffbf41be9bd94033",
+        "android_client_info": {
+          "package_name": "com.hacksun.background_service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347073602762-qcnkjd9ncmb5psg536qpfmhka1rrc1e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPpJ1GQIw2HClkTSh9OYOBgUhmkQioaV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347073602762-qcnkjd9ncmb5psg536qpfmhka1rrc1e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
