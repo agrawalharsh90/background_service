@@ -1,3 +1,4 @@
+import 'package:background_service/push_data.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -54,7 +55,10 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () {
+          Navigator.pushReplacement(context,
+              MaterialPageRoute(builder: (context) => FirebaseDemoScreen()));
+        },
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ),
